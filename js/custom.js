@@ -532,4 +532,15 @@ $(function () {
       });
     }
 
+
+let x = document.getElementById("myVideo");
+
+
+
+
+  x.defaultPlaybackRate = 0.5;
+  x.load();
+
+
+
 });
