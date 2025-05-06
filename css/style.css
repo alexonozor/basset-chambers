@@ -2576,6 +2576,14 @@ blockquote cite:before {
     -o-object-fit: cover;
     object-fit: cover;
 }
+.video-fullscreen-wrap img {
+    width: 100vw;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
 .video-fullscreen-wrap .video-fullscreen-inner {
     position: absolute;
     top: 0;
